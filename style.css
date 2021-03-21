@@ -1,0 +1,252 @@
+/*====================================================
+DEFAULT SETUP
+======================================================*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/*====================================================
+  REUSABLE COMPONENTS /GENERAL STYLES
+  ======================================================*/
+h1,
+h2,
+h3,
+button {
+  text-transform: uppercase;
+}
+h1 {
+  color: #1b3658;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 60px;
+}
+h2 {
+  color: white;
+  display: inline-block;
+  line-height: 70px;
+  margin-right: 30px;
+}
+h3 {
+  color: #3483e4;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+h5 {
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+p {
+  color: #4e4f52;
+}
+/*====================================================
+  HEADER
+  ======================================================*/
+.top-nav {
+  background-color: #2c5282;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.social-icon {
+  color: white;
+  font-size: 1.7rem;
+  margin-left: 30px;
+  line-height: 70px;
+}
+.social-icon:hover {
+  transform: scale(1.3);
+}
+header p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #81868d;
+  margin-bottom: 60px;
+}
+/*====================================================
+  MAIN_NAV
+  ======================================================*/
+.main-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  height: 100px;
+  border-top: 1px #dcdfe4 solid;
+  border-bottom: 1px #dcdfe4 solid;
+  background-color: #edf2fc;
+}
+.main-nav li {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 30px;
+  line-height: 100px;
+}
+
+/*====================================================
+  MAIN
+  ======================================================*/
+.container {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.col-left {
+  flex: 2;
+  margin-right: 20px;
+}
+.col-right {
+  flex: 1;
+}
+/* Column-left SECTION 
+  --------------------*/
+
+article {
+  border: 1px solid #c0c3c9;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  padding: 30px;
+}
+article p {
+  margin-top: 30px;
+}
+
+article p:last-child {
+  margin-bottom: 40px;
+}
+
+/* Column-right SECTION
+  --------------------*/
+.box {
+  border: 1px solid #c0c3c9;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.box p {
+  line-height: 150%;
+}
+.box h5 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #2c5282;
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  display: block;
+  color: white;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: #0c223d;
+}
+.side-image {
+  display: flex;
+}
+.side-image img {
+  margin: 5px;
+}
+.side-image img:hover {
+  transform: scale(1.05);
+}
+/* Link SECTION
+  ------------*/
+.link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.link i {
+  color: #2c5282;
+  font-size: 1.5rem;
+}
+.link span {
+  color: #183b66;
+}
+.link__left,
+.link__right {
+  border: 1px solid #c0c3c9;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  flex: 1;
+  padding: 20px;
+}
+.link__right {
+  text-align: right;
+}
+
+/* Author SECTION
+  -------------*/
+.author {
+  display: flex;
+  border: 1px solid #c0c3c9;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  margin-top: 30px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.author__image {
+  flex: 1;
+}
+.author__info {
+  flex: 5;
+}
+.author__image img {
+  width: 80%;
+  border-radius: 50%;
+}
+.author__image img:hover {
+  transform: scale(1.2);
+}
+.author__info h5 {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+/*====================================================
+  FOOTER
+  ======================================================*/
+hr {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.bottom-nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.bottom-nav li {
+  margin: 0 20px;
+}
+.center {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.badge {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: #2c5282;
+  color: white;
+  position: fixed;
+  right: 200px;
+  bottom: 50px;
+}
